@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Etch-a-sketch</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Sniglet&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <header id="page-title">
+    <h1>Etch-a-sketch</h1>
+  </header>
+  <section id="controls-window">
+    <form id="game-form">
+      <label for="grid-size">Enter grid size:</label>
+      <input id ="grid-size-input" type="number" name="grid-size" value="16" min="16" max="64"/>
+      <input type="button" id="new-grid-button" value="Create new grid" />
+    </form>
+
+  </section>
+  <section id="sketch-window">
+    
+  </section>
+  <section id="options-window">
+    <form id="options-form" name="options">
+      <label for="standard">Standard
+        <input type="radio" id="standard" name="options" checked>
+      </label> 
+      <label for="rainbow">Rainbow
+        <input type="radio" id="rainbow" name="options">
+      </label>    
+      <label for="tint">Tint
+        <input type="radio" id="tint" name="options">
+      </label>
+      
+    </form>
+  </section>
+</body>
+<script src="main.js"></script>
+</html>
